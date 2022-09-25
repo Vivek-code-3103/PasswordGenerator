@@ -1,0 +1,120 @@
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("—Pngtree—internet password network security technology_1020344.jpg");
+    background-size: cover;
+    height: 100vh;
+    overflow-y: hidden;
+    /* font-family: Georgia, Times, 'Times New Roman', serif */
+}
+.container{
+    background-color: #1f2937;
+    max-width:60%;
+    min-width: 20%;
+    max-height:80%;
+    margin-left:5em;
+    margin-top: 5em;
+    padding:3em;
+    padding-top:5em;
+    padding-bottom: 5em;
+    border-radius: 10px;
+}
+.text{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+    
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+    /* margin-bottom: 0.5em; */
+}
+.two{
+    color:#34D399;
+}
+.three{
+    
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+color: #D5D4D8;
+}
+.btns{
+    padding:2em;
+    padding-left: 0;
+    border-bottom:2px solid #2F3E53;
+}
+button{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 17px 9px 15px;
+background: #10B981;
+border:none;
+border-radius: 5px;
+color: #ffffff;
+cursor: pointer;
+}
+.btn:hover{
+    background-color: #273549;
+    color:#10B981;
+}
+span{
+    display: inline-block;
+}
+.passbox{
+  margin-top:2.5em;
+  text-align: justify;
+
+}
+.passw{
+    /* position: absolute; */
+    width:24vh;
+    height:5vh;
+    display: inline-block;
+    background: #273549;
+    border-radius: 6px;
+    padding:7px 15px 7px 15px;
+    margin:0.2em;
+    color:#10B981;
+}
+.len{
+    background-color: #10B981;
+    color:#FFFFFF;
+    height:3vh;
+    margin-left:2vh;
+    cursor: pointer;
+    border: none;
+    border-radius:5px;
+}
+.len:hover{
+    background-color: #273549;
+    color:#10B981;
+}
+.length,.symbol,.number{
+    margin-top:4vh;
+    display: flex;
+    color:#ffffff;
+}
+.symbol,.number{
+    display: flex;
+}
+.n-1,.s-1{
+    margin-left:1em;
+    margin-right: 1em;
+}
+input{
+    accent-color:#10B981;
+    cursor: pointer;
+}
